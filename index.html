@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <!-- ----------------------------style---------------------- -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>BMI Calculator</h1>
+      <h2>Enter Your Weight and Height bellow to check your BMI Result</h2>
+      <div class="test">
+        <form action="">
+          <label for="weight"> Put Your Weight in here (KG) </label>
+          <input
+            type="number"
+            placeholder="45"
+            class="input-user"
+            id="weight"
+            required
+          />
+          <label for="weight"> Put Your Height in here(CM) </label>
+          <input
+            type="number"
+            placeholder="145"
+            class="input-user"
+            id="height"
+            required
+          />
+          <button type="submit">Calculate BMI</button>
+        </form>
+      </div>
+      <div class="result">
+        <p>Your BMI is <b>21.5</b> which means You are <b>Normal</b>.</p>
+      </div>
+    </div>
+    <!-- -------------------------------- scripts js -------------------------------- -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
